@@ -97,8 +97,8 @@ Create a new incident.
   "status": "OPEN",
   "owner": "engineer-1",
   "summary": "Intermittent timeouts detected",
-  "createdAt": "2024-02-14T10:30:00Z",
-  "updatedAt": "2024-02-14T10:30:00Z"
+  "createdAt": "2026-02-14T10:30:00Z",
+  "updatedAt": "2026-02-14T10:30:00Z"
 }
 ```
 
@@ -142,8 +142,8 @@ GET /incidents?page=2&limit=20&sortBy=severity&sortOrder=ASC&service=Database&st
       "status": "OPEN",
       "owner": "engineer-2",
       "summary": "Connection limit reached",
-      "createdAt": "2024-02-14T09:00:00Z",
-      "updatedAt": "2024-02-14T10:00:00Z"
+      "createdAt": "2026-02-14T09:00:00Z",
+      "updatedAt": "2026-02-14T10:00:00Z"
     }
   ],
   "pagination": {
@@ -172,8 +172,8 @@ Fetch a single incident by ID.
   "status": "OPEN",
   "owner": "engineer-1",
   "summary": "Intermittent timeouts detected",
-  "createdAt": "2024-02-14T10:30:00Z",
-  "updatedAt": "2024-02-14T10:30:00Z"
+  "createdAt": "2026-02-14T10:30:00Z",
+  "updatedAt": "2026-02-14T10:30:00Z"
 }
 ```
 
@@ -200,8 +200,8 @@ Update an incident. Only provided fields are updated.
   "status": "MITIGATED",
   "owner": "engineer-1",
   "summary": "Temporary workaround deployed",
-  "createdAt": "2024-02-14T10:30:00Z",
-  "updatedAt": "2024-02-14T11:15:00Z"
+  "createdAt": "2026-02-14T10:30:00Z",
+  "updatedAt": "2026-02-14T11:15:00Z"
 }
 ```
 
@@ -536,6 +536,6 @@ MIT
 
 ---
 
-**Build Date:** February 2024  
+**Build Date:** February 2026  
 **Total Estimated Time:** 6-10 hours  
 **Status:** Production-Ready (with noted limitations)
